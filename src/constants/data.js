@@ -81,18 +81,21 @@ const TESTIMONIALS = [
   {
     stars: "5/5",
     name: "Sarah M.",
+    avatar: "src/assets/Profile.png",
     paragraph:
       "I'm blown away by the quality and style of the clothes I receiced from Shop.co. From casual wear to elegent dresses, every piece I've bought has exceed my expectations.",
   },
   {
     stars: "5/5",
     name: "Alex K.",
+    avatar: "src/assets/Profile.png",
     paragraph:
       "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.",
   },
   {
     stars: "5/5",
     name: "James L.",
+    avatar: "src/assets/Profile.png",
     paragraph:
       "As someone who's always on the lookout for unique fashion peices, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.",
   },
