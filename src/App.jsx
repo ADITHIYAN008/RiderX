@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <>
+    <div className="px-3 lg:max-w-[1200px] lg:mx-auto">
       <Navbar />
       <FeaturedBikes />
       <NewArrivals />
@@ -17,7 +17,7 @@ const App = () => {
       <Testimonials />
       <Newsletter />
       <Footer />
-    </>
+    </div>
   );
 };
 

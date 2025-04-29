@@ -10,13 +10,13 @@ const Footer = () => {
             Support
           </h2>
           <ul className="text-[12px] text-nowrap flex flex-col gap-2 text-text-primary/80">
-            <li>Franchise Enquiry</li>
-            <li>Contact</li>
-            <li>Warranty Registration</li>
-            <li>Warranty Claim</li>
-            <li>Payments</li>
-            <li>Cancellations & Returns</li>
-            <li>Frequently Asked Questions</li>
+            <li className="cursor-pointer">Franchise Enquiry</li>
+            <li className="cursor-pointer">Contact</li>
+            <li className="cursor-pointer">Warranty Registration</li>
+            <li className="cursor-pointer">Warranty Claim</li>
+            <li className="cursor-pointer">Payments</li>
+            <li className="cursor-pointer">Cancellations & Returns</li>
+            <li className="cursor-pointer">Frequently Asked Questions</li>
           </ul>
         </div>
         <div>
@@ -24,9 +24,9 @@ const Footer = () => {
             About
           </h2>
           <ul className="text-[12px] text-nowrap flex flex-col gap-2 text-text-primary/80">
-            <li>Corporate Profile</li>
-            <li>Product Catalogue</li>
-            <li>Store Locator</li>
+            <li className="cursor-pointer">Corporate Profile</li>
+            <li className="cursor-pointer">Product Catalogue</li>
+            <li className="cursor-pointer">Store Locator</li>
           </ul>
         </div>
         <div>
@@ -34,10 +34,10 @@ const Footer = () => {
             Policy
           </h2>
           <ul className="text-[12px] text-nowrap flex flex-col gap-2 text-text-primary/80">
-            <li>Privacy Policy</li>
-            <li>Terms and Conditions</li>
-            <li>Warranty Policy</li>
-            <li>Shipping Policy</li>
+            <li className="cursor-pointer">Privacy Policy</li>
+            <li className="cursor-pointer">Terms and Conditions</li>
+            <li className="cursor-pointer">Warranty Policy</li>
+            <li className="cursor-pointer">Shipping Policy</li>
           </ul>
         </div>
       </div>

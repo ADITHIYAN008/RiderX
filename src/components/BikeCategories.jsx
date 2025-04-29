@@ -14,23 +14,23 @@ const BikeCategories = () => {
           alt=""
         />
       </div>
-      <div className="flex flex-col mt-7 overflow-x-auto max-w-full no-scrollbar">
+      <div className="flex flex-col mt-7 overflow-x-auto max-w-full no-scrollbar md:grid md:grid-cols-2 md:gap-3">
         {BIKE_CATEGORIES.map((item, index) => (
           <motion.div
-            initial={{ y: 30, opacity: 0 }}
+            initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{
-              duration: 1,
+              duration: 0.8,
               delay: 0.3,
               ease: "easeIn",
             }}
             key={index}
-            className="mb-10 flex-shrink-0 w-[350px]"
+            className="mb-10 flex-shrink-0 w-[350px] sm:w-[550px] sm:h-auto md:w-[350px]"
           >
             <div className="w-full h-[200px] bg-itembg rounded-lg relative">
               <a href="#">
                 <img
-                  className="rounded-lg cursor-pointer object-cover w-full h-full"
+                  className="rounded-lg cursor-pointer object-cover w-full h-full sm:w-[800px]"
                   src={item.img}
                   alt={item.title}
                 />
@@ -38,7 +38,7 @@ const BikeCategories = () => {
             </div>
             <a
               href="#"
-              className="mt-5 cursor-pointer flex items-center gap-4 font-bold"
+              className="mt-5 cursor-pointer flex items-center gap-4 font-bold sm:text-xl"
             >
               {item.title} <FaArrowRightLong />
             </a>

@@ -2,7 +2,7 @@ import { FiMail } from "react-icons/fi";
 
 const Newsletter = () => {
   return (
-    <div className="bg-black rounded-3xl p-8 text-white max-w-[350px] mx-auto text-center mb-20">
+    <div className="bg-black rounded-3xl p-8 text-white max-w-[350px] mx-auto text-center mb-20 sm:min-w-[400px]">
       <h2 className="text-2xl font-extrabold uppercase leading-tight space-y-2 mb-6">
         Stay Upto Date About Our Latest Offers
       </h2>

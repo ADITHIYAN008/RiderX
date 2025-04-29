@@ -7,14 +7,16 @@ import { IoClose } from "react-icons/io5";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="relative">
+    <div className="relative sm:mt-6 ">
       <div className="w-full text-center bg-primary text-black">
         <div className="flex justify-between  items-center p-5">
-          <h1 className="font-primary text-3xl text-text-primary">RIDERX</h1>
-          <div className="relative">
+          <h1 className="font-primary text-3xl text-text-primary sm:text-5xl">
+            RIDERX
+          </h1>
+          <div className="relative lg:hidden">
             {/* Menu Icon */}
             <HiOutlineMenuAlt3
-              className={`absolute right-2 -top-3 text-3xl cursor-pointer text-text-primary transition-all duration-500 transform ${
+              className={`absolute right-2 -top-3 text-3xl cursor-pointer text-text-primary transition-all duration-500 transform sm:text-5xl sm:-top-6 ${
                 isOpen
                   ? "opacity-0 scale-50 rotate-45"
                   : "opacity-100 scale-100 rotate-0"
@@ -24,7 +26,7 @@ const Navbar = () => {
 
             {/* Close Icon */}
             <IoClose
-              className={`absolute right-2 -top-3 text-3xl cursor-pointer text-text-primary transition-all duration-500 transform ${
+              className={`absolute right-2 -top-3 text-3xl cursor-pointer text-text-primary transition-all duration-500 transform sm:text-5xl sm:-top-6 ${
                 isOpen
                   ? "opacity-100 scale-100 rotate-0"
                   : "opacity-0 scale-50 rotate-45"
@@ -65,6 +67,9 @@ const Navbar = () => {
               <FaArrowRightLong />
             </li>
           </ul>
+        </div>
+        <div className="hidden lg:block">
+          <div></div>
         </div>
       </div>
     </div>
